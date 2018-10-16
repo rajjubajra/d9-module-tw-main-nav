@@ -6,13 +6,24 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import './App.css';
 
 class App extends Component {
+  constructor(){
+    super();
+        this.state = {
+          input: '',
+        }
+    }
+
+  onInputChange = (e) => {
+      console.log(e.target.value);
+  }
+
   render() {
     return (
       <div className="App">
         <Navigation />
         <Logo />
         <Rank />
-        <ImageLinkForm />
+        <ImageLinkForm onInputChange={this.onInputChange} />
       { /*   <FaceRecognition /> */}
       </div>
     );
