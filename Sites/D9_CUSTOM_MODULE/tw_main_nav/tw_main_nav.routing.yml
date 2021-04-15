@@ -1,0 +1,57 @@
+tw_main_nav.about:
+  path: '/about'
+  defaults:
+    _controller: '\Drupal\tw_main_nav\Controller\NavController::about'
+    _title: 'Tailwindcss 2 Main Navigation'
+  requirements:
+    _permission: 'access content'
+
+tw_main_nav.foodmenu:
+  path: '/foodmenu'
+  defaults:
+    _controller: '\Drupal\tw_main_nav\Controller\NavController::foodmenu'
+    _title: 'Food Menu'
+  requirements:
+    _permission: 'access content'
+
+tw_main_nav.tablebooking:
+  path: '/tablebooking'
+  defaults:
+    _controller: '\Drupal\tw_main_nav\Controller\NavController::tablebooking'
+    _title: 'Table Booking'
+  requirements:
+    _permission: 'access content'
+
+tw_main_nav.gallery:
+  path: '/gallery'
+  defaults:
+    _controller: '\Drupal\tw_main_nav\Controller\NavController::gallery'
+    _title: 'Gallery'
+  requirements:
+    _permission: 'access content'
+
+tw_main_nav.events:
+  path: '/events'
+  defaults:
+    _controller: '\Drupal\tw_main_nav\Controller\NavController::events'
+    _title: 'Events'
+  requirements:
+    _permission: 'access content'
+
+
+tw_main_nav.reviews:
+  path: '/reviews'
+  defaults:
+    _controller: '\Drupal\tw_main_nav\Controller\NavController::reviews'
+    _title: 'Reviews'
+  requirements:
+    _permission: 'access content'
+
+
+tw_main_nav.contact:
+  path: '/contact'
+  defaults:
+    _controller: '\Drupal\tw_main_nav\Controller\NavController::contact'
+    _title: 'contact'
+  requirements:
+    _permission: 'access content'
