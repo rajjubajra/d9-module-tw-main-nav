@@ -1,0 +1,42 @@
+tw_main_nav.newpage_about:
+  title: 'About'
+  description: 'Link to the page About'
+  route_name: tw_main_nav.about
+  weight: 10
+  menu_name: main
+
+
+tw_main_nav.newpage_foodmenu:
+  title: 'Food Menu'
+  description: 'Link to the page Food Menu'
+  route_name: tw_main_nav.foodmenu
+  weight: 11
+  menu_name: main
+
+tw_main_nav.newpage_tablebooking:
+  title: 'Table Booking'
+  description: 'Link to the Table Booking Page'
+  route_name: tw_main_nav.tablebooking
+  weight: 12
+  menu_name: main
+
+tw_main_nav.newpage_gallery:
+  title: 'Gallery'
+  description: 'Link to the Gallery Page'
+  route_name: tw_main_nav.gallery
+  weight: 13
+  menu_name: main
+
+tw_main_nav.newpage_events:
+  title: 'Event'
+  description: 'Link to the Event Page'
+  route_name: tw_main_nav.events
+  weight: 14
+  menu_name: main
+
+tw_main_nav.newpage_contact:
+  title: 'Contact'
+  description: 'Link to the Contact Page'
+  route_name: tw_main_nav.contact
+  weight: 14
+  menu_name: main
