@@ -1,0 +1,23 @@
+tw_food_menu.form:
+  path: '/foodmenu'
+  defaults: 
+    _form: '\Drupal\tw_food_menu\Form\FoodMenuEntryForm'
+    _title: 'Food Menu Entry Form'
+  requirements:
+    _permission: 'view tw_food_menu'
+
+tw_food_menu.report:
+  path: '/foodmenu-list'
+  defaults:
+    _controller: '\Drupal\tw_food_menu\Controller\ReportController::report' 
+    _title: 'Food Menu Items'
+  requirements:
+    _permission: 'view tw_food_menu'
+
+tw_food_menu.foodmenuitems:
+  path: '/foodmenu-items'
+  defaults:
+    _controller: '\Drupal\tw_food_menu\Controller\FoodmenuController::foodmenuItems' 
+    _title: 'Food Menu Items'
+  requirements:
+    _permission: 'access control'

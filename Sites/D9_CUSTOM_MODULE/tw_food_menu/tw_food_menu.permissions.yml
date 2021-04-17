@@ -1,0 +1,10 @@
+view tw_food_menu:
+  title: 'View Food Menu Entry Form'
+  description: 'View and submit Food Menu items'
+access tw_food_menu report:
+  title: 'Access list of Food Menu Items'
+  description: 'View the lising food menu items'
+administer tw_food_menu:
+  title: 'Administer Food Menu Item Entry Form'
+  description: 'Access the Food Menu Entry form settings'
+  restriction access: true

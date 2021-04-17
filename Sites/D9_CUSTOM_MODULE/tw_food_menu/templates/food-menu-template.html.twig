@@ -1,0 +1,15 @@
+{#
+/**
+*  @file
+*  Default theme implementation.
+*/
+#}
+
+
+<div class="w-full">
+{% for item in data %}
+
+<div>{{ item.name }} - {{ item.details}} - £ {{item.rate}}</div>
+
+{% endfor %}
+</div>

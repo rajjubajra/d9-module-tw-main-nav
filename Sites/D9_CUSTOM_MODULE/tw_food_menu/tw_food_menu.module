@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function tw_food_menu_theme($existing, $type, $theme, $path){
+    return [
+      'food-menu-template' => [
+        'variables' =>[
+          'data'=> NULL,
+          'nid' => NULL
+            ]
+          ]
+        ];
+  
+}

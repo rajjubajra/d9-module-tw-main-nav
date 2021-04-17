@@ -1,0 +1,5 @@
+name: TW Restaurant Food Menu
+type: module
+core_version_requirement: ^8 || ^9
+version: 1.0
+description: Restaurant Food Menu made with Tailwindcss

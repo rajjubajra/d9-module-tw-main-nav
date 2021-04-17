@@ -1,0 +1,88 @@
+<?php
+/**
+ * Implements hook_schema().
+ *
+ */
+
+function tw_food_menu_schema(){
+  $schema['tw_food_menu'] = array(
+    'description' => 'Stores Food Menu item details, nid, uid etc',
+    'fields' => array(
+      'id'=>array(
+        'description' => 'The primary identifier for the record.',
+        'type' => 'serial',
+        'unsigned'=> TRUE,
+        'not null' => TRUE,
+      ),
+      'uid' => array(
+        'description' => 'The {users}. uid that added the record.',
+        'type'=> 'int',
+        'not null' => TRUE,
+        'default' => 0, 
+      ),
+      'nid' => array(
+        'description' => 'The {node}. nid for the record.',
+        'type' => 'varchar',
+        'length' => 64,
+        'not null'=> FALSE,
+        'default' => 0,
+      ),
+      'name' => array(
+        'description' => 'Food menu item name.',
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => FALSE,
+        'default' => 0,
+      ),
+      'details' => array(
+        'description' => 'Food menu item description.',
+        'type' => 'varchar',
+        'length' => 200,
+        'not null' => FALSE,
+        'default' => 0,
+      ),
+      'rate' => array(
+        'description' => 'Food menu item rate.',
+        'type' => 'float',
+        'length' => 64,
+        'not null' => FALSE,
+        'default' => 0,
+      ),
+      
+      'food_menu_image' => array(
+        'description' => 'Food menu image.',
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => FALSE,
+        'default' => 0,
+      ),
+      
+
+      'created' => array(
+        'description' => 'Timestamp for the menu item created.',
+        'type'=> 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ),
+    ),
+    'primary key' => array('id'),
+    'indexes' => array(
+        'node' => array('nid'),
+        'node_user' => array('nid', 'uid'),
+      ),
+    );
+
+    $schema['tw_food_menu_enabled'] = array(
+      'description' => 'Tracks whether Tailwind food menu is enabled for a node',
+      'fields' => array(
+        'nid' => array(
+          'description' => 'The {node}. nid that has TW Food Menu enabled',
+          'type' => 'int',
+          'not null' => TRUE,
+          'default' => 0,
+        ),
+      ),
+      'primary key' => array('nid'),
+    );
+    return $schema; 
+}
