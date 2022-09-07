@@ -1,0 +1,635 @@
+
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "taxonomy_term--demo_data_type",
+      "id": "1e481b4b-310c-49b7-ad19-d391e8f31265",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/1e481b4b-310c-49b7-ad19-d391e8f31265?resourceVersion=id%3A54"
+        }
+      },
+      "attributes": {
+        "drupal_internal__tid": 54,
+        "drupal_internal__revision_id": 54,
+        "langcode": "en",
+        "revision_created": "2022-09-05T22:23:28+00:00",
+        "revision_log_message": null,
+        "status": true,
+        "name": "Culture",
+        "description": null,
+        "weight": 0,
+        "changed": "2022-09-05T22:23:28+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        }
+      },
+      "relationships": {
+        "vid": {
+          "data": {
+            "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+            "id": "8a9f8040-4bbd-4aaf-ae96-6409fbf6cabb",
+            "meta": {
+              "drupal_internal__target_id": "demo_data_type"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/1e481b4b-310c-49b7-ad19-d391e8f31265/vid?resourceVersion=id%3A54"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/1e481b4b-310c-49b7-ad19-d391e8f31265/relationships/vid?resourceVersion=id%3A54"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/1e481b4b-310c-49b7-ad19-d391e8f31265/revision_user?resourceVersion=id%3A54"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/1e481b4b-310c-49b7-ad19-d391e8f31265/relationships/revision_user?resourceVersion=id%3A54"
+            }
+          }
+        },
+        "parent": {
+          "data": [
+            {
+              "type": "taxonomy_term--demo_data_type",
+              "id": "virtual",
+              "meta": {
+                "links": {
+                  "help": {
+                    "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                    "meta": {
+                      "about": "Usage and meaning of the 'virtual' resource identifier."
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/1e481b4b-310c-49b7-ad19-d391e8f31265/parent?resourceVersion=id%3A54"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/1e481b4b-310c-49b7-ad19-d391e8f31265/relationships/parent?resourceVersion=id%3A54"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "taxonomy_term--demo_data_type",
+      "id": "91476b13-013d-4d58-9651-cbdb077a0dc6",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/91476b13-013d-4d58-9651-cbdb077a0dc6?resourceVersion=id%3A55"
+        }
+      },
+      "attributes": {
+        "drupal_internal__tid": 55,
+        "drupal_internal__revision_id": 55,
+        "langcode": "en",
+        "revision_created": "2022-09-05T22:23:35+00:00",
+        "revision_log_message": null,
+        "status": true,
+        "name": "MAT",
+        "description": null,
+        "weight": 0,
+        "changed": "2022-09-05T22:23:35+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        }
+      },
+      "relationships": {
+        "vid": {
+          "data": {
+            "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+            "id": "8a9f8040-4bbd-4aaf-ae96-6409fbf6cabb",
+            "meta": {
+              "drupal_internal__target_id": "demo_data_type"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/91476b13-013d-4d58-9651-cbdb077a0dc6/vid?resourceVersion=id%3A55"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/91476b13-013d-4d58-9651-cbdb077a0dc6/relationships/vid?resourceVersion=id%3A55"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/91476b13-013d-4d58-9651-cbdb077a0dc6/revision_user?resourceVersion=id%3A55"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/91476b13-013d-4d58-9651-cbdb077a0dc6/relationships/revision_user?resourceVersion=id%3A55"
+            }
+          }
+        },
+        "parent": {
+          "data": [
+            {
+              "type": "taxonomy_term--demo_data_type",
+              "id": "virtual",
+              "meta": {
+                "links": {
+                  "help": {
+                    "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                    "meta": {
+                      "about": "Usage and meaning of the 'virtual' resource identifier."
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/91476b13-013d-4d58-9651-cbdb077a0dc6/parent?resourceVersion=id%3A55"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/91476b13-013d-4d58-9651-cbdb077a0dc6/relationships/parent?resourceVersion=id%3A55"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "taxonomy_term--demo_data_type",
+      "id": "fb2b82f4-bd06-4370-9e2f-bac33c193f62",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/fb2b82f4-bd06-4370-9e2f-bac33c193f62?resourceVersion=id%3A56"
+        }
+      },
+      "attributes": {
+        "drupal_internal__tid": 56,
+        "drupal_internal__revision_id": 56,
+        "langcode": "en",
+        "revision_created": "2022-09-05T22:23:42+00:00",
+        "revision_log_message": null,
+        "status": true,
+        "name": "Systems",
+        "description": null,
+        "weight": 0,
+        "changed": "2022-09-05T22:23:42+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        }
+      },
+      "relationships": {
+        "vid": {
+          "data": {
+            "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+            "id": "8a9f8040-4bbd-4aaf-ae96-6409fbf6cabb",
+            "meta": {
+              "drupal_internal__target_id": "demo_data_type"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/fb2b82f4-bd06-4370-9e2f-bac33c193f62/vid?resourceVersion=id%3A56"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/fb2b82f4-bd06-4370-9e2f-bac33c193f62/relationships/vid?resourceVersion=id%3A56"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/fb2b82f4-bd06-4370-9e2f-bac33c193f62/revision_user?resourceVersion=id%3A56"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/fb2b82f4-bd06-4370-9e2f-bac33c193f62/relationships/revision_user?resourceVersion=id%3A56"
+            }
+          }
+        },
+        "parent": {
+          "data": [
+            {
+              "type": "taxonomy_term--demo_data_type",
+              "id": "virtual",
+              "meta": {
+                "links": {
+                  "help": {
+                    "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                    "meta": {
+                      "about": "Usage and meaning of the 'virtual' resource identifier."
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/fb2b82f4-bd06-4370-9e2f-bac33c193f62/parent?resourceVersion=id%3A56"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/fb2b82f4-bd06-4370-9e2f-bac33c193f62/relationships/parent?resourceVersion=id%3A56"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "taxonomy_term--demo_data_type",
+      "id": "db114412-1603-48a6-be26-f4c14c221852",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/db114412-1603-48a6-be26-f4c14c221852?resourceVersion=id%3A57"
+        }
+      },
+      "attributes": {
+        "drupal_internal__tid": 57,
+        "drupal_internal__revision_id": 57,
+        "langcode": "en",
+        "revision_created": "2022-09-05T22:23:55+00:00",
+        "revision_log_message": null,
+        "status": true,
+        "name": "Structure",
+        "description": null,
+        "weight": 0,
+        "changed": "2022-09-05T22:23:55+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        }
+      },
+      "relationships": {
+        "vid": {
+          "data": {
+            "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+            "id": "8a9f8040-4bbd-4aaf-ae96-6409fbf6cabb",
+            "meta": {
+              "drupal_internal__target_id": "demo_data_type"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/db114412-1603-48a6-be26-f4c14c221852/vid?resourceVersion=id%3A57"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/db114412-1603-48a6-be26-f4c14c221852/relationships/vid?resourceVersion=id%3A57"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/db114412-1603-48a6-be26-f4c14c221852/revision_user?resourceVersion=id%3A57"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/db114412-1603-48a6-be26-f4c14c221852/relationships/revision_user?resourceVersion=id%3A57"
+            }
+          }
+        },
+        "parent": {
+          "data": [
+            {
+              "type": "taxonomy_term--demo_data_type",
+              "id": "virtual",
+              "meta": {
+                "links": {
+                  "help": {
+                    "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                    "meta": {
+                      "about": "Usage and meaning of the 'virtual' resource identifier."
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/db114412-1603-48a6-be26-f4c14c221852/parent?resourceVersion=id%3A57"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/db114412-1603-48a6-be26-f4c14c221852/relationships/parent?resourceVersion=id%3A57"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "taxonomy_term--demo_data_type",
+      "id": "edace742-5e7d-4d8c-83f4-715aa7230c9b",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/edace742-5e7d-4d8c-83f4-715aa7230c9b?resourceVersion=id%3A58"
+        }
+      },
+      "attributes": {
+        "drupal_internal__tid": 58,
+        "drupal_internal__revision_id": 58,
+        "langcode": "en",
+        "revision_created": "2022-09-05T22:24:16+00:00",
+        "revision_log_message": null,
+        "status": true,
+        "name": "Resources",
+        "description": null,
+        "weight": 0,
+        "changed": "2022-09-05T22:24:16+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        }
+      },
+      "relationships": {
+        "vid": {
+          "data": {
+            "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+            "id": "8a9f8040-4bbd-4aaf-ae96-6409fbf6cabb",
+            "meta": {
+              "drupal_internal__target_id": "demo_data_type"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/edace742-5e7d-4d8c-83f4-715aa7230c9b/vid?resourceVersion=id%3A58"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/edace742-5e7d-4d8c-83f4-715aa7230c9b/relationships/vid?resourceVersion=id%3A58"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/edace742-5e7d-4d8c-83f4-715aa7230c9b/revision_user?resourceVersion=id%3A58"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/edace742-5e7d-4d8c-83f4-715aa7230c9b/relationships/revision_user?resourceVersion=id%3A58"
+            }
+          }
+        },
+        "parent": {
+          "data": [
+            {
+              "type": "taxonomy_term--demo_data_type",
+              "id": "virtual",
+              "meta": {
+                "links": {
+                  "help": {
+                    "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                    "meta": {
+                      "about": "Usage and meaning of the 'virtual' resource identifier."
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/edace742-5e7d-4d8c-83f4-715aa7230c9b/parent?resourceVersion=id%3A58"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/edace742-5e7d-4d8c-83f4-715aa7230c9b/relationships/parent?resourceVersion=id%3A58"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "taxonomy_term--demo_data_type",
+      "id": "551447d2-a922-4950-9519-c055ccc5fe28",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/551447d2-a922-4950-9519-c055ccc5fe28?resourceVersion=id%3A59"
+        }
+      },
+      "attributes": {
+        "drupal_internal__tid": 59,
+        "drupal_internal__revision_id": 59,
+        "langcode": "en",
+        "revision_created": "2022-09-05T22:24:28+00:00",
+        "revision_log_message": null,
+        "status": true,
+        "name": "Practice",
+        "description": null,
+        "weight": 0,
+        "changed": "2022-09-05T22:24:28+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        }
+      },
+      "relationships": {
+        "vid": {
+          "data": {
+            "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+            "id": "8a9f8040-4bbd-4aaf-ae96-6409fbf6cabb",
+            "meta": {
+              "drupal_internal__target_id": "demo_data_type"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/551447d2-a922-4950-9519-c055ccc5fe28/vid?resourceVersion=id%3A59"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/551447d2-a922-4950-9519-c055ccc5fe28/relationships/vid?resourceVersion=id%3A59"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/551447d2-a922-4950-9519-c055ccc5fe28/revision_user?resourceVersion=id%3A59"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/551447d2-a922-4950-9519-c055ccc5fe28/relationships/revision_user?resourceVersion=id%3A59"
+            }
+          }
+        },
+        "parent": {
+          "data": [
+            {
+              "type": "taxonomy_term--demo_data_type",
+              "id": "virtual",
+              "meta": {
+                "links": {
+                  "help": {
+                    "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                    "meta": {
+                      "about": "Usage and meaning of the 'virtual' resource identifier."
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/551447d2-a922-4950-9519-c055ccc5fe28/parent?resourceVersion=id%3A59"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/551447d2-a922-4950-9519-c055ccc5fe28/relationships/parent?resourceVersion=id%3A59"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "taxonomy_term--demo_data_type",
+      "id": "98d39b39-cb69-47e7-9afb-06d8fd330af7",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/98d39b39-cb69-47e7-9afb-06d8fd330af7?resourceVersion=id%3A60"
+        }
+      },
+      "attributes": {
+        "drupal_internal__tid": 60,
+        "drupal_internal__revision_id": 60,
+        "langcode": "en",
+        "revision_created": "2022-09-05T22:24:39+00:00",
+        "revision_log_message": null,
+        "status": true,
+        "name": "Community",
+        "description": null,
+        "weight": 0,
+        "changed": "2022-09-05T22:24:39+00:00",
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        }
+      },
+      "relationships": {
+        "vid": {
+          "data": {
+            "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+            "id": "8a9f8040-4bbd-4aaf-ae96-6409fbf6cabb",
+            "meta": {
+              "drupal_internal__target_id": "demo_data_type"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/98d39b39-cb69-47e7-9afb-06d8fd330af7/vid?resourceVersion=id%3A60"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/98d39b39-cb69-47e7-9afb-06d8fd330af7/relationships/vid?resourceVersion=id%3A60"
+            }
+          }
+        },
+        "revision_user": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/98d39b39-cb69-47e7-9afb-06d8fd330af7/revision_user?resourceVersion=id%3A60"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/98d39b39-cb69-47e7-9afb-06d8fd330af7/relationships/revision_user?resourceVersion=id%3A60"
+            }
+          }
+        },
+        "parent": {
+          "data": [
+            {
+              "type": "taxonomy_term--demo_data_type",
+              "id": "virtual",
+              "meta": {
+                "links": {
+                  "help": {
+                    "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                    "meta": {
+                      "about": "Usage and meaning of the 'virtual' resource identifier."
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/98d39b39-cb69-47e7-9afb-06d8fd330af7/parent?resourceVersion=id%3A60"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/98d39b39-cb69-47e7-9afb-06d8fd330af7/relationships/parent?resourceVersion=id%3A60"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": "7"
+  },
+  "links": {
+    "describedby": {
+      "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type/collection/schema"
+    },
+    "self": {
+      "href": "https://dev.yellow-website.com/yw-d9/jsonapi/taxonomy_term/demo_data_type"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/r18tw3Review-01/static/css/main.511b050c.css",
+    "main.js": "/r18tw3Review-01/static/js/main.eea60938.js",
+    "index.html": "/r18tw3Review-01/index.html",
+    "main.511b050c.css.map": "/r18tw3Review-01/static/css/main.511b050c.css.map",
+    "main.eea60938.js.map": "/r18tw3Review-01/static/js/main.eea60938.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.511b050c.css",
+    "static/js/main.eea60938.js"
+  ]
+}
