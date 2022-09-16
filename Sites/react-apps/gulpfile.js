@@ -15,13 +15,13 @@ const { src, dest, watch, series } = require('gulp');
 
 
 function moveFiles() {
-  return src('./r18tw3Review-01/build/**/*.*')
-    .pipe(dest('./r18tw3Review-01'))
+  return src('./r18tw3csvapp/build/**/*.*')
+    .pipe(dest('./csvapp'))
 }
 
 function moveToGithubPages() {
-  return src('./r18tw3Review-01/build/**/*.*')
-    .pipe(dest('../github-pages/r18tw3Review-01'))
+  return src('./r18tw3csvapp/build/**/*.*')
+    .pipe(dest('../dev.yellow-website.com/react-apps/csvapp'))
 }
 
 // function watchTask() {
