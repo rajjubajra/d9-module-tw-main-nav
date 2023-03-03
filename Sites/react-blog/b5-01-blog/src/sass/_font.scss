@@ -1,0 +1,61 @@
+/** 
+
+body {
+  font-size: calc(
+    [minimum size] + ([maximum size] - [minimum size]) 
+    * ((100vw - [minimum viewport width]) 
+    / ([maximum viewport width] - [minimum viewport width])));
+}
+
+**/
+
+body{
+  font-family: sans-serif;
+}
+
+
+$small: 0.7rem;
+$medium: 0.85rem;
+$regular: 1rem;
+$large: 1.5rem;
+$larger: 2.5rem;
+$extra_large: 3rem;
+$megha_font: 6rem;
+$gaint_font: 8rem;
+
+
+// h1{
+//   font-size: calc( 2rem + (7 - 2) * ((100vw - 300vw) / (1200 - 300)));
+// }
+
+// h1{
+//   font-size: $megha_font;
+//   @media(max-width: $media_medium){
+//     font-size: $extra_large;
+//   }
+// }
+
+
+.cross-text{
+  text-decoration: line-through;
+}
+h1, h2{
+  font-family: serif;
+  text-transform: capitalize;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #00000066;
+}
+
+
+p{
+  font-weight: 100;
+}
+
+a{
+  font-weight: 100;
+}
+

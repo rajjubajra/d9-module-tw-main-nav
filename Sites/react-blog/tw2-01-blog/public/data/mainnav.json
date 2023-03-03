@@ -1,0 +1,76 @@
+[
+  {
+    "key": "standard.front_page",
+    "title": "Home",
+    "description": "",
+    "uri": "",
+    "alias": "",
+    "external": false,
+    "absolute": "https://yellow-website.com/d9-blog/",
+    "relative": "/d9-blog/",
+    "existing": true,
+    "weight": "0",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": [
+      
+    ]
+  },
+  {
+    "key": "2bb32e89-f9dc-4cf7-bf27-b8802d5c86aa",
+    "title": "About",
+    "description": "About page",
+    "uri": "base:about",
+    "alias": null,
+    "external": false,
+    "absolute": "https://yellow-website.com/d9-blog/about",
+    "relative": "/d9-blog/about",
+    "existing": true,
+    "weight": "1",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": [
+      
+    ]
+  },
+  {
+    "key": "d9e5e073-00d8-441a-99d4-348967265e20",
+    "title": "Blog",
+    "description": "Blog page",
+    "uri": "base:blog",
+    "alias": null,
+    "external": false,
+    "absolute": "https://yellow-website.com/d9-blog/blog",
+    "relative": "/d9-blog/blog",
+    "existing": true,
+    "weight": "2",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": [
+      
+    ]
+  },
+  {
+    "key": "7965790a-5a9c-47b6-8449-f908af159355",
+    "title": "Contact",
+    "description": "Contact page",
+    "uri": "contact",
+    "alias": "contact",
+    "external": false,
+    "absolute": "https://yellow-website.com/d9-blog/contact",
+    "relative": "/d9-blog/contact",
+    "existing": true,
+    "weight": "3",
+    "expanded": false,
+    "enabled": true,
+    "uuid": null,
+    "options": {
+      "query": [
+        
+      ]
+    }
+  }
+]
