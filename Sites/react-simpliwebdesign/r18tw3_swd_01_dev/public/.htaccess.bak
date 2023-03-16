@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /dev/
+RewriteCond %{REQUEST_URI} !^/dev/
+RewriteRule ^(.*)$ /dev/$1 [L]

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /accounts/
+RewriteCond %{REQUEST_URI} !^/accounts/
+RewriteRule ^(.*)$ /dev/$1 [L]

@@ -1,0 +1,499 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--article",
+      "id": "cd0ca3bd-9a84-465c-967b-f69c209346eb",
+      "links": {
+        "self": {
+          "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb?resourceVersion=id%3A1"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 1,
+        "drupal_internal__vid": 1,
+        "langcode": "en",
+        "revision_timestamp": "2023-02-19T07:29:38+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Title",
+        "created": "2023-02-19T07:29:38+00:00",
+        "changed": "2023-02-19T07:29:38+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "Title body",
+          "format": "plain_text",
+          "processed": "<p>Title body</p>\n",
+          "summary": null
+        },
+        "comment": {
+          "status": 2,
+          "cid": 0,
+          "last_comment_timestamp": 1676791778,
+          "last_comment_name": null,
+          "last_comment_uid": 1,
+          "comment_count": 0
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "abb05cca-be6f-4849-8dc7-590d3ff0263b",
+            "meta": {
+              "drupal_internal__target_id": "article"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/node_type?resourceVersion=id%3A1"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/relationships/node_type?resourceVersion=id%3A1"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/revision_uid?resourceVersion=id%3A1"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/relationships/revision_uid?resourceVersion=id%3A1"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/uid?resourceVersion=id%3A1"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/relationships/uid?resourceVersion=id%3A1"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/field_image?resourceVersion=id%3A1"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/relationships/field_image?resourceVersion=id%3A1"
+            }
+          }
+        },
+        "field_tags": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/field_tags?resourceVersion=id%3A1"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/cd0ca3bd-9a84-465c-967b-f69c209346eb/relationships/field_tags?resourceVersion=id%3A1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--article",
+      "id": "13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7",
+      "links": {
+        "self": {
+          "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7?resourceVersion=id%3A2"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 2,
+        "drupal_internal__vid": 2,
+        "langcode": "en",
+        "revision_timestamp": "2023-02-19T08:42:15+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Test Article ",
+        "created": "2023-02-19T08:42:15+00:00",
+        "changed": "2023-02-19T08:42:15+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "This is a test article. Test text body.",
+          "format": "plain_text",
+          "processed": "<p>This is a test article. Test text body.</p>\n",
+          "summary": null
+        },
+        "comment": {
+          "status": 2,
+          "cid": 0,
+          "last_comment_timestamp": 1676796135,
+          "last_comment_name": null,
+          "last_comment_uid": 1,
+          "comment_count": 0
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "abb05cca-be6f-4849-8dc7-590d3ff0263b",
+            "meta": {
+              "drupal_internal__target_id": "article"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/node_type?resourceVersion=id%3A2"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/relationships/node_type?resourceVersion=id%3A2"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/revision_uid?resourceVersion=id%3A2"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/relationships/revision_uid?resourceVersion=id%3A2"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/uid?resourceVersion=id%3A2"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/relationships/uid?resourceVersion=id%3A2"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/field_image?resourceVersion=id%3A2"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/relationships/field_image?resourceVersion=id%3A2"
+            }
+          }
+        },
+        "field_tags": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/field_tags?resourceVersion=id%3A2"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/13a092eb-6f1a-4a8f-87d5-d9e4a6f101c7/relationships/field_tags?resourceVersion=id%3A2"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--article",
+      "id": "2012ecc9-e242-4779-8b92-b718f9511c3d",
+      "links": {
+        "self": {
+          "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d?resourceVersion=id%3A3"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 3,
+        "drupal_internal__vid": 3,
+        "langcode": "en",
+        "revision_timestamp": "2023-02-19T08:42:52+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Test Article ",
+        "created": "2023-02-19T08:42:52+00:00",
+        "changed": "2023-02-19T08:42:52+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "This is a test article. Test text body.",
+          "format": "plain_text",
+          "processed": "<p>This is a test article. Test text body.</p>\n",
+          "summary": null
+        },
+        "comment": {
+          "status": 2,
+          "cid": 0,
+          "last_comment_timestamp": 1676796172,
+          "last_comment_name": null,
+          "last_comment_uid": 1,
+          "comment_count": 0
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "abb05cca-be6f-4849-8dc7-590d3ff0263b",
+            "meta": {
+              "drupal_internal__target_id": "article"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/node_type?resourceVersion=id%3A3"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/relationships/node_type?resourceVersion=id%3A3"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/revision_uid?resourceVersion=id%3A3"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/relationships/revision_uid?resourceVersion=id%3A3"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/uid?resourceVersion=id%3A3"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/relationships/uid?resourceVersion=id%3A3"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/field_image?resourceVersion=id%3A3"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/relationships/field_image?resourceVersion=id%3A3"
+            }
+          }
+        },
+        "field_tags": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/field_tags?resourceVersion=id%3A3"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/2012ecc9-e242-4779-8b92-b718f9511c3d/relationships/field_tags?resourceVersion=id%3A3"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--article",
+      "id": "b3375c2c-09eb-4ef3-b171-c08285a405b6",
+      "links": {
+        "self": {
+          "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6?resourceVersion=id%3A4"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 4,
+        "drupal_internal__vid": 4,
+        "langcode": "en",
+        "revision_timestamp": "2023-02-19T08:54:19+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "new",
+        "created": "2023-02-19T08:54:19+00:00",
+        "changed": "2023-02-19T08:54:19+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "new artile",
+          "format": "plain_text",
+          "processed": "<p>new artile</p>\n",
+          "summary": null
+        },
+        "comment": {
+          "status": 2,
+          "cid": 0,
+          "last_comment_timestamp": 1676796859,
+          "last_comment_name": null,
+          "last_comment_uid": 1,
+          "comment_count": 0
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "abb05cca-be6f-4849-8dc7-590d3ff0263b",
+            "meta": {
+              "drupal_internal__target_id": "article"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/node_type?resourceVersion=id%3A4"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/relationships/node_type?resourceVersion=id%3A4"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/revision_uid?resourceVersion=id%3A4"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/relationships/revision_uid?resourceVersion=id%3A4"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "1f420e07-16a7-44fe-a8f6-e43d23857c19",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/uid?resourceVersion=id%3A4"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/relationships/uid?resourceVersion=id%3A4"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/field_image?resourceVersion=id%3A4"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/relationships/field_image?resourceVersion=id%3A4"
+            }
+          }
+        },
+        "field_tags": {
+          "data": [
+            
+          ],
+          "links": {
+            "related": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/field_tags?resourceVersion=id%3A4"
+            },
+            "self": {
+              "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article/b3375c2c-09eb-4ef3-b171-c08285a405b6/relationships/field_tags?resourceVersion=id%3A4"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "links": {
+    "self": {
+      "href": "https://simpliwebdesign.com/demo-website/backend/web/jsonapi/node/article"
+    }
+  }
+}

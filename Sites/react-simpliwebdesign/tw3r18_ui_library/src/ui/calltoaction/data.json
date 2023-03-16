@@ -1,0 +1,11 @@
+{
+  "cta":[{
+    "id": 1,
+    "title":  "Get Exclusive Access to Premium Content with Our Subscription Service",
+    "body": "<p>Sign up for our subscription service today and enjoy access to premium content, exclusive deals, and much more. With our service, you'll have unlimited access to our library of articles, videos, and other content that's not available to the public. Plus, you'll receive discounts on our products and services, early access to new releases, and much more.</p><p>Don't miss out on this opportunity to enhance your experience and get more value from our brand. Join our community of subscribers and start enjoying exclusive benefits today.</p>",
+    "link_1": "Join Now",
+    "path_1": "#",
+    "link_2": "Subscribe Now",
+    "path_2": "#"
+  }]
+}

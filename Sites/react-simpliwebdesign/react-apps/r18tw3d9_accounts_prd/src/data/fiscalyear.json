@@ -1,0 +1,491 @@
+
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--fiscal_year",
+      "id": "7ead872b-5d27-4b7d-b506-9f1b64ae829e",
+      "links": {
+        "describedby": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/resource/schema"
+        },
+        "self": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/7ead872b-5d27-4b7d-b506-9f1b64ae829e?resourceVersion=id%3A470"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 155,
+        "drupal_internal__vid": 470,
+        "langcode": "en",
+        "revision_timestamp": "2022-09-15T05:03:53+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "2018-2019",
+        "created": "2022-09-15T05:02:22+00:00",
+        "changed": "2022-09-15T05:03:53+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_fiscal_year": {
+          "value": "2018-04-06T00:00:00+00:00",
+          "end_value": "2019-04-05T23:59:00+00:00",
+          "duration": 525599,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "135ef891-67e4-4bd8-a1ad-86fbedc78523",
+            "meta": {
+              "drupal_internal__target_id": "fiscal_year"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/7ead872b-5d27-4b7d-b506-9f1b64ae829e/node_type?resourceVersion=id%3A470"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/7ead872b-5d27-4b7d-b506-9f1b64ae829e/relationships/node_type?resourceVersion=id%3A470"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/7ead872b-5d27-4b7d-b506-9f1b64ae829e/revision_uid?resourceVersion=id%3A470"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/7ead872b-5d27-4b7d-b506-9f1b64ae829e/relationships/revision_uid?resourceVersion=id%3A470"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/7ead872b-5d27-4b7d-b506-9f1b64ae829e/uid?resourceVersion=id%3A470"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/7ead872b-5d27-4b7d-b506-9f1b64ae829e/relationships/uid?resourceVersion=id%3A470"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--fiscal_year",
+      "id": "50807953-e85c-484a-83b3-0c0d5f425a57",
+      "links": {
+        "describedby": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/resource/schema"
+        },
+        "self": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/50807953-e85c-484a-83b3-0c0d5f425a57?resourceVersion=id%3A471"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 156,
+        "drupal_internal__vid": 471,
+        "langcode": "en",
+        "revision_timestamp": "2022-09-15T05:06:25+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "2019-2020",
+        "created": "2022-09-15T05:05:42+00:00",
+        "changed": "2022-09-15T05:06:25+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_fiscal_year": {
+          "value": "2019-04-06T00:00:00+00:00",
+          "end_value": "2020-04-05T23:59:00+00:00",
+          "duration": 527039,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "135ef891-67e4-4bd8-a1ad-86fbedc78523",
+            "meta": {
+              "drupal_internal__target_id": "fiscal_year"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/50807953-e85c-484a-83b3-0c0d5f425a57/node_type?resourceVersion=id%3A471"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/50807953-e85c-484a-83b3-0c0d5f425a57/relationships/node_type?resourceVersion=id%3A471"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/50807953-e85c-484a-83b3-0c0d5f425a57/revision_uid?resourceVersion=id%3A471"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/50807953-e85c-484a-83b3-0c0d5f425a57/relationships/revision_uid?resourceVersion=id%3A471"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/50807953-e85c-484a-83b3-0c0d5f425a57/uid?resourceVersion=id%3A471"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/50807953-e85c-484a-83b3-0c0d5f425a57/relationships/uid?resourceVersion=id%3A471"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--fiscal_year",
+      "id": "b89f6175-c6da-45ad-b5c0-8a2a2317ea6b",
+      "links": {
+        "describedby": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/resource/schema"
+        },
+        "self": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/b89f6175-c6da-45ad-b5c0-8a2a2317ea6b?resourceVersion=id%3A472"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 157,
+        "drupal_internal__vid": 472,
+        "langcode": "en",
+        "revision_timestamp": "2022-09-15T05:07:24+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "2020-2021",
+        "created": "2022-09-15T05:06:32+00:00",
+        "changed": "2022-09-15T05:07:24+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_fiscal_year": {
+          "value": "2020-04-06T00:00:00+00:00",
+          "end_value": "2021-04-05T23:59:00+00:00",
+          "duration": 525599,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "135ef891-67e4-4bd8-a1ad-86fbedc78523",
+            "meta": {
+              "drupal_internal__target_id": "fiscal_year"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/b89f6175-c6da-45ad-b5c0-8a2a2317ea6b/node_type?resourceVersion=id%3A472"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/b89f6175-c6da-45ad-b5c0-8a2a2317ea6b/relationships/node_type?resourceVersion=id%3A472"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/b89f6175-c6da-45ad-b5c0-8a2a2317ea6b/revision_uid?resourceVersion=id%3A472"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/b89f6175-c6da-45ad-b5c0-8a2a2317ea6b/relationships/revision_uid?resourceVersion=id%3A472"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/b89f6175-c6da-45ad-b5c0-8a2a2317ea6b/uid?resourceVersion=id%3A472"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/b89f6175-c6da-45ad-b5c0-8a2a2317ea6b/relationships/uid?resourceVersion=id%3A472"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--fiscal_year",
+      "id": "532f0e7d-5afc-4d22-8e45-a23ed0afdf5b",
+      "links": {
+        "describedby": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/resource/schema"
+        },
+        "self": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/532f0e7d-5afc-4d22-8e45-a23ed0afdf5b?resourceVersion=id%3A473"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 158,
+        "drupal_internal__vid": 473,
+        "langcode": "en",
+        "revision_timestamp": "2022-09-15T05:08:11+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "2021-2022",
+        "created": "2022-09-15T05:07:30+00:00",
+        "changed": "2022-09-15T05:08:11+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_fiscal_year": {
+          "value": "2021-04-06T00:00:00+00:00",
+          "end_value": "2022-04-05T23:59:00+00:00",
+          "duration": 525599,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "135ef891-67e4-4bd8-a1ad-86fbedc78523",
+            "meta": {
+              "drupal_internal__target_id": "fiscal_year"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/532f0e7d-5afc-4d22-8e45-a23ed0afdf5b/node_type?resourceVersion=id%3A473"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/532f0e7d-5afc-4d22-8e45-a23ed0afdf5b/relationships/node_type?resourceVersion=id%3A473"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/532f0e7d-5afc-4d22-8e45-a23ed0afdf5b/revision_uid?resourceVersion=id%3A473"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/532f0e7d-5afc-4d22-8e45-a23ed0afdf5b/relationships/revision_uid?resourceVersion=id%3A473"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/532f0e7d-5afc-4d22-8e45-a23ed0afdf5b/uid?resourceVersion=id%3A473"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/532f0e7d-5afc-4d22-8e45-a23ed0afdf5b/relationships/uid?resourceVersion=id%3A473"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--fiscal_year",
+      "id": "51ec9be0-e7d9-48fa-aa32-46802a32e519",
+      "links": {
+        "describedby": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/resource/schema"
+        },
+        "self": {
+          "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/51ec9be0-e7d9-48fa-aa32-46802a32e519?resourceVersion=id%3A474"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 159,
+        "drupal_internal__vid": 474,
+        "langcode": "en",
+        "revision_timestamp": "2022-09-15T05:08:54+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "2022-2023",
+        "created": "2022-09-15T05:08:21+00:00",
+        "changed": "2022-09-15T05:08:54+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_fiscal_year": {
+          "value": "2022-04-06T00:00:00+00:00",
+          "end_value": "2023-04-05T23:59:00+00:00",
+          "duration": 525599,
+          "rrule": null,
+          "rrule_index": null,
+          "timezone": ""
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "135ef891-67e4-4bd8-a1ad-86fbedc78523",
+            "meta": {
+              "drupal_internal__target_id": "fiscal_year"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/51ec9be0-e7d9-48fa-aa32-46802a32e519/node_type?resourceVersion=id%3A474"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/51ec9be0-e7d9-48fa-aa32-46802a32e519/relationships/node_type?resourceVersion=id%3A474"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/51ec9be0-e7d9-48fa-aa32-46802a32e519/revision_uid?resourceVersion=id%3A474"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/51ec9be0-e7d9-48fa-aa32-46802a32e519/relationships/revision_uid?resourceVersion=id%3A474"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/51ec9be0-e7d9-48fa-aa32-46802a32e519/uid?resourceVersion=id%3A474"
+            },
+            "self": {
+              "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/51ec9be0-e7d9-48fa-aa32-46802a32e519/relationships/uid?resourceVersion=id%3A474"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": "5"
+  },
+  "links": {
+    "describedby": {
+      "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year/collection/schema"
+    },
+    "self": {
+      "href": "https://yellow-website.com/yw-d9/jsonapi/node/fiscal_year"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "feedback":"I can't say enough good things about this product. It's completely transformed my life and I don't know what I'd do without it.",
+      "by": "Judith",
+      "role": "CEO | A Company"
+    },
+    {
+      "id": 2,
+      "feedback":"The service provided by this company is exceptional. They always go above and beyond to make sure their customers are happy.",
+      "by": "Joseph",
+      "role": "Director | Xyz Company"
+    },
+    {
+      "id": 3,
+      "feedback":"I was skeptical at first, but after using this product for a few weeks, I'm blown away by the results. I highly recommend it!",
+      "by": "Leslie",
+      "role": "Manager | ABC Organisation"
+    },
+    {
+      "id": 4,
+      "feedback":"The team at this company is incredibly knowledgeable and helpful. They truly care about their customers and it shows.",
+      "by": "Michael",
+      "role": "Manager | Business Company"
+    },
+    {
+      "id": 5,
+      "feedback":"I've been using this service for years and I couldn't be happier. The quality and consistency are top-notch.",
+      "by": "Dries",
+      "role": "Freelance Artist"
+    },
+    {
+      "id": 6,
+      "feedback":"I had an amazing experience with this business. The staff was friendly, the atmosphere was great, and the service was excellent.",
+      "by": "Lindsay",
+      "role": "Executive Sales | Trading House"
+    },
+    {
+      "id": 7,
+      "feedback":"I was hesitant to try this product, but I'm so glad I did. It's exceeded my expectations in every way.",
+      "by": "Tom",
+      "role": "Marketing Director | Sales Corporation"
+    },
+    {
+      "id": 8,
+      "feedback":"I've recommended this company to all my friends and family. Their products are amazing and their customer service is second to none.",
+      "by": "Suzan",
+      "role": "Product Manager | Manufacturing Comapnay"
+    },
+    {
+      "id": 9,
+      "feedback":"This service has made my life so much easier. I don't know how I managed without it before.",
+      "by": "Peter",
+      "role": "General Manager | Production Comapnay"
+    },
+    {
+      "id": 10,
+      "feedback":"I had a problem with my order and the team at this company went out of their way to make it right. I'm impressed by their commitment to customer satisfaction.",
+      "by": "Leonard",
+      "role": "Chef | A Big Hotel"
+    }
+  ] 
+}

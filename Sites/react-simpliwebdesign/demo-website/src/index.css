@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+  .form-btn{
+    @apply px-4 py-2 uppercase tracking-wider bg-blue-900 text-gray-300 text-sm font-light my-4 border border-gray-900 mx-2
+  }
+  .form-title{
+    @apply mb-5 uppercase tracking-wider my-2 border-b font-light
+  }
+}

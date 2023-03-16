@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .container{
+    @apply md:w-8/12 w-full m-auto
+  }
+  .btn{
+    @apply py-2 px-4 border hover:bg-gray-200
+  }
+}

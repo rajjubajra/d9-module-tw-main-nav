@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /tw3r18_ui_components/
+RewriteCond %{REQUEST_URI} !^/tw3r18_ui_components/
+RewriteRule ^(.\*)$ /tw3r18_ui_components/$1 [L]

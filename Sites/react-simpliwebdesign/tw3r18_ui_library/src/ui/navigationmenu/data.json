@@ -1,0 +1,67 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Home",
+      "path": "#",
+      "order": "1",
+      "children": [
+        {
+          "id": 1,
+          "name": "About",
+          "path": "#",
+          "order": 1
+        },
+        {
+          "id": 1,
+          "name": "Team",
+          "path": "#",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "News",
+      "path": "#",
+      "order": 2
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "path": "#",
+      "order": 2
+    },
+    {
+      "id": 4,
+      "name": "Music",
+      "path": "#",
+      "order": 2,
+      "children": [
+        {
+          "id": 1,
+          "name": "Rock",
+          "path": "#",
+          "order": 1
+        },
+        {
+          "id": 1,
+          "name": "Jazz",
+          "path": "#",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "name": "Blues",
+          "path": "#",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Blog",
+      "path": "#"
+    }
+  ]
+}

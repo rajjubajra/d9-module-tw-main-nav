@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .block{
+    @apply w-56 p-2 m-1 text-sm border border-gray-200
+  }
+}

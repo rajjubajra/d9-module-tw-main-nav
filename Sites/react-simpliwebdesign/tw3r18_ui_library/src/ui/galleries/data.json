@@ -1,0 +1,46 @@
+{
+  "data":[
+    {
+      "id":1,
+      "image": "../../../assets/magazine_cover.jpg",
+      "title": "Lumbini 2021",
+      "desc": "01-05-2018 (UK), Volume21, B.E 2562, May 2018"
+    },
+    {
+      "id":2,
+      "image": "../../../assets/magazine_cover.jpg",
+      "title": "Lumbini 2020",
+      "desc": "01-05-2018 (UK), Volume21, B.E 2562, May 2018"
+    },
+    {
+      "id":3,
+      "image": "../../../assets/magazine_cover.jpg",
+      "title": "Lumbini 2019",
+      "desc": "01-05-2018 (UK), Volume21, B.E 2562, May 2018"
+    },
+    {
+      "id":4,
+      "image": "../../../assets/magazine_cover.jpg",
+      "title": "Lumbini 2018",
+      "desc": "01-05-2018 (UK), Volume21, B.E 2562, May 2018"
+    },
+    {
+      "id":4,
+      "image": "../../../assets/magazine_cover.jpg",
+      "title": "Lumbini 2018",
+      "desc": "01-05-2018 (UK), Volume21, B.E 2562, May 2018"
+    },
+    {
+      "id":4,
+      "image": "../../../assets/magazine_cover.jpg",
+      "title": "Lumbini 2018",
+      "desc": "01-05-2018 (UK), Volume21, B.E 2562, May 2018"
+    },
+    {
+      "id":4,
+      "image": "../../../assets/magazine_cover.jpg",
+      "title": "Lumbini 2018",
+      "desc": "01-05-2018 (UK), Volume21, B.E 2562, May 2018"
+    }
+  ]
+}

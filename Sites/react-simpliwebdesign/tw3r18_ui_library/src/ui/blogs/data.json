@@ -1,0 +1,94 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "date": "16 Mar, 2020",
+      "subject": "Wellbeing",
+      "title": "The Top 10 Benefits of Meditation for Your Mind and Body",
+      "summary": "In this article, we explore the many benefits of meditation, including stress relief, improved focus and concentration, increased emotional wellbeing, and more.",
+      "by": "Micheal",
+      "colspan": 6
+    },
+    {
+      "id": 2,
+      "date": "20 Apr, 2020",
+      "subject": "Life",
+      "title": "How to Build a Successful Morning Routine in 5 Easy Steps",
+      "summary": "This article provides readers with practical tips for creating a morning routine that sets them up for a successful day. From waking up earlier to incorporating exercise and mindfulness, we offer actionable advice to help readers start their day off right.",
+      "by": "Tom",
+      "colspan": 3
+    },
+    {
+      "id": 3,
+      "date": "25 Apr, 2020",
+      "subject": "Life",
+      "title": "The Power of Positive Thinking: How to Harness Your Mindset for Success",
+      "summary": "In this article, we explore the power of positive thinking and how it can help you achieve your goals. We share strategies for shifting negative thought patterns, as well as practical tips for cultivating a positive mindset.",
+      "by": "John",
+      "colspan": 3
+    },
+    {
+      "id":4,
+      "date": "25 May, 2020",
+      "subject": "Wellbeing",
+      "title":"The Importance of Self-Care: How to Prioritize Your Mental and Physical Health",
+      "summary": "This article explores the importance of self-care for mental and physical wellbeing. From making time for exercise and healthy eating to practicing relaxation techniques and seeking support, we offer practical tips for readers looking to prioritize their self-care.",
+      "by": "Peter",
+      "colspan": 3
+    },
+    {
+      "id": 5,
+      "date": "25 Jun, 2020",
+      "subject":"Wellbeing",
+      "title": "How to Stay Motivated When Pursuing Your Goals",
+      "summary": "In this article, we offer strategies for staying motivated and focused when pursuing your goals. From setting realistic expectations to finding accountability partners, we provide actionable advice to help readers stay on track.",
+      "by": "Paul",
+      "colspan": 6
+    },
+    {
+      "id":6,
+      "date": "25 Jul, 2020",
+      "subject": "Wellbeing",
+      "title": "10 Simple Strategies for Managing Stress and Anxiety",
+      "summary": "This article provides readers with practical tips for managing stress and anxiety, including deep breathing exercises, mindfulness techniques, and more. We also explore the importance of seeking professional support when needed.",
+      "by": "Ringo",
+      "colspan": 3
+    },
+    {
+      "id":7,
+      "date": "25 Aug, 2020",
+      "subject":"Life",
+      "title":"The Benefits of Gratitude: How to Cultivate an Attitude of Appreciation",
+      "summary":"In this article, we explore the many benefits of gratitude, including improved emotional wellbeing, better relationships, and more. We provide practical tips for cultivating an attitude of appreciation, including keeping a gratitude journal and practicing mindfulness.",
+      "by": "Harrison",
+      "colspan": 3
+    },
+    {
+      "id": 8,
+      "date": "25 Sep, 2020",
+      "subject":"Life",
+      "title": "The Power of Habit: How to Create Lasting Change in Your Life",
+      "summary": "This article explores the power of habit and how it can help you create lasting change in your life. From identifying triggers to building new habits over time, we offer actionable advice to help readers make positive changes in their lives.",
+      "by": "Eric",
+      "colspan": 3
+    },
+    {
+      "id":9,
+      "date": "25 Oct, 2020",
+      "subject":"Food",
+      "title":"The Top 10 Foods for Boosting Your Energy and Productivity",
+      "summary":"In this article, we explore the top foods for boosting energy and productivity, including nuts, whole grains, and leafy greens. We also provide practical tips for incorporating these foods into your diet for maximum benefits.",
+      "by": "Mark",
+      "colspan": 3
+    },
+    {
+      "id":10,
+      "date": "25 Nov, 2020",
+      "subject":"Life",
+      "title":"How to Build Stronger Relationships: Tips for Better Communication and Connection",
+      "summary": "This article provides readers with strategies for building stronger relationships through better communication and connection. From active listening to practicing empathy, we offer practical tips for improving your relationships with others.",
+      "by": "Bob",
+      "colspan": 3
+    }
+  ]
+}

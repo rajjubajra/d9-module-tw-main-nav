@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tw3r18/theme-007/static/css/main.ddd8d015.css",
+    "main.js": "/tw3r18/theme-007/static/js/main.73c72767.js",
+    "static/media/window.png": "/tw3r18/theme-007/static/media/window.dedb52d257a169d3207e.png",
+    "static/media/architecture.jpg": "/tw3r18/theme-007/static/media/architecture.d6eac51f0c8d0b58ee3a.jpg",
+    "static/media/holiday-home-1.jpg": "/tw3r18/theme-007/static/media/holiday-home-1.12e3920f4f6b861aac1e.jpg",
+    "static/media/house-2.jpg": "/tw3r18/theme-007/static/media/house-2.522f580393736b566d0e.jpg",
+    "static/media/house-4.jpg": "/tw3r18/theme-007/static/media/house-4.e2f6ae167382958817eb.jpg",
+    "static/media/landscape.jpg": "/tw3r18/theme-007/static/media/landscape.3ee2023989251e11c44f.jpg",
+    "static/media/architecture-83.jpg": "/tw3r18/theme-007/static/media/architecture-83.fc50af28e7490f5b3647.jpg",
+    "static/media/stair.jpg": "/tw3r18/theme-007/static/media/stair.2de9876971554dae95c3.jpg",
+    "static/media/house-3.jpg": "/tw3r18/theme-007/static/media/house-3.168ee4a5b1c837e5e389.jpg",
+    "static/media/architecture-17.jpg": "/tw3r18/theme-007/static/media/architecture-17.b0e7ab385e9525f465d6.jpg",
+    "static/media/door.jpg": "/tw3r18/theme-007/static/media/door.e211440061e482755b57.jpg",
+    "static/media/staircase.jpg": "/tw3r18/theme-007/static/media/staircase.f254cf0a69472c1a1a82.jpg",
+    "static/media/paper-flower.jpg": "/tw3r18/theme-007/static/media/paper-flower.f7bacb439ba712ec973d.jpg",
+    "index.html": "/tw3r18/theme-007/index.html",
+    "main.ddd8d015.css.map": "/tw3r18/theme-007/static/css/main.ddd8d015.css.map",
+    "main.73c72767.js.map": "/tw3r18/theme-007/static/js/main.73c72767.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddd8d015.css",
+    "static/js/main.73c72767.js"
+  ]
+}

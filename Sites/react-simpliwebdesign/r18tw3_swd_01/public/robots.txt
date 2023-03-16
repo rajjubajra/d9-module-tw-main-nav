@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /live/
+Disallow: /dev/
+Disallow: /test/
+Disallow: /namecheap-backup/
+Disallow: /SWD_LOGO/
+Disallow: /website/
+Disallow: /accounts/

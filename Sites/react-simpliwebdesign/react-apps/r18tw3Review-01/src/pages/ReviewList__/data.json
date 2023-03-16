@@ -1,0 +1,327 @@
+
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.0/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "node--product_review",
+      "id": "bb2a7f74-6651-4649-91c8-973c4c385bce",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce?resourceVersion=id%3A399"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 115,
+        "drupal_internal__vid": 399,
+        "langcode": "en",
+        "revision_timestamp": "2022-08-05T11:19:17+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Product One",
+        "created": "2022-08-05T08:29:49+00:00",
+        "changed": "2022-08-05T11:19:17+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "field_product_review": {
+          "value": "<p>This is test product one review test.</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>This is test product one review test.</p>"
+        },
+        "field_product_review_rating": 10
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "fe8602d4-8797-4bc9-bb06-452049b9f65e",
+            "meta": {
+              "drupal_internal__target_id": "product_review"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/node_type?resourceVersion=id%3A399"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/relationships/node_type?resourceVersion=id%3A399"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/revision_uid?resourceVersion=id%3A399"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/relationships/revision_uid?resourceVersion=id%3A399"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/uid?resourceVersion=id%3A399"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/relationships/uid?resourceVersion=id%3A399"
+            }
+          }
+        },
+        "field_product_review_category": {
+          "data": [
+            {
+              "type": "node--app_product_review_category",
+              "id": "a13cc6d9-e35b-4d2d-8e32-e52413e5b44b",
+              "meta": {
+                "drupal_internal__target_id": 113
+              }
+            },
+            {
+              "type": "node--app_product_review_category",
+              "id": "29998c29-b6ef-41d1-b541-14d9a6025993",
+              "meta": {
+                "drupal_internal__target_id": 112
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/field_product_review_category?resourceVersion=id%3A399"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/bb2a7f74-6651-4649-91c8-973c4c385bce/relationships/field_product_review_category?resourceVersion=id%3A399"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "node--app_product_review_category",
+      "id": "a13cc6d9-e35b-4d2d-8e32-e52413e5b44b",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/a13cc6d9-e35b-4d2d-8e32-e52413e5b44b?resourceVersion=id%3A395"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 113,
+        "drupal_internal__vid": 395,
+        "langcode": "en",
+        "revision_timestamp": "2022-08-05T08:24:37+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Xbox",
+        "created": "2022-08-05T08:24:06+00:00",
+        "changed": "2022-08-05T08:24:37+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "<p>Gamming App</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Gamming App</p>",
+          "summary": ""
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "34b91f53-0f7d-448a-a9a3-c849808a23bd",
+            "meta": {
+              "drupal_internal__target_id": "app_product_review_category"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/a13cc6d9-e35b-4d2d-8e32-e52413e5b44b/node_type?resourceVersion=id%3A395"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/a13cc6d9-e35b-4d2d-8e32-e52413e5b44b/relationships/node_type?resourceVersion=id%3A395"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/a13cc6d9-e35b-4d2d-8e32-e52413e5b44b/revision_uid?resourceVersion=id%3A395"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/a13cc6d9-e35b-4d2d-8e32-e52413e5b44b/relationships/revision_uid?resourceVersion=id%3A395"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/a13cc6d9-e35b-4d2d-8e32-e52413e5b44b/uid?resourceVersion=id%3A395"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/a13cc6d9-e35b-4d2d-8e32-e52413e5b44b/relationships/uid?resourceVersion=id%3A395"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "node--app_product_review_category",
+      "id": "29998c29-b6ef-41d1-b541-14d9a6025993",
+      "links": {
+        "describedby": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/resource/schema"
+        },
+        "self": {
+          "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/29998c29-b6ef-41d1-b541-14d9a6025993?resourceVersion=id%3A394"
+        }
+      },
+      "attributes": {
+        "drupal_internal__nid": 112,
+        "drupal_internal__vid": 394,
+        "langcode": "en",
+        "revision_timestamp": "2022-08-05T08:23:52+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "PSS",
+        "created": "2022-08-05T08:23:34+00:00",
+        "changed": "2022-08-05T08:23:52+00:00",
+        "promote": true,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "<p>Gaming App</p>\r\n",
+          "format": "basic_html",
+          "processed": "<p>Gaming App</p>",
+          "summary": ""
+        }
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "34b91f53-0f7d-448a-a9a3-c849808a23bd",
+            "meta": {
+              "drupal_internal__target_id": "app_product_review_category"
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/29998c29-b6ef-41d1-b541-14d9a6025993/node_type?resourceVersion=id%3A394"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/29998c29-b6ef-41d1-b541-14d9a6025993/relationships/node_type?resourceVersion=id%3A394"
+            }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/29998c29-b6ef-41d1-b541-14d9a6025993/revision_uid?resourceVersion=id%3A394"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/29998c29-b6ef-41d1-b541-14d9a6025993/relationships/revision_uid?resourceVersion=id%3A394"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "98fd8b15-fbc5-4ceb-895c-49dd9c31f88e",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/29998c29-b6ef-41d1-b541-14d9a6025993/uid?resourceVersion=id%3A394"
+            },
+            "self": {
+              "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/app_product_review_category/29998c29-b6ef-41d1-b541-14d9a6025993/relationships/uid?resourceVersion=id%3A394"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": "1"
+  },
+  "links": {
+    "describedby": {
+      "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review/collection/schema"
+    },
+    "self": {
+      "href": "https://dev.yellow-website.com/yw-d9/jsonapi/node/product_review?include=field_product_review_category"
+    }
+  }
+}

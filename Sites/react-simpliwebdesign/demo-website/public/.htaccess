@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /demo-website
+RewriteCond %{REQUEST_URI} !^/demo-website
+RewriteRule ^(.*)$ /demo-website/$1 [L]
